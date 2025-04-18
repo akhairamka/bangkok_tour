@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHREE SHYAM TRAVELS | Domestic & International Tours</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS Animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-blue-800 text-white text-center py-6">
+    <h1 class="text-4xl font-bold">SHREE SHYAM TRAVELS</h1>
+    <p class="text-xl mt-2">Domestic & International Tour Packages | Book Your Dream Vacation</p>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative h-[80vh] bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1583847268964-b28c8320d4c4?auto=format&fit=crop&w=1600&q=80');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-center p-6">
+      <h2 class="text-4xl font-bold mb-4">Explore the World with SHREE SHYAM TRAVELS</h2>
+      <p class="text-xl mb-6">Flights ✈️ | Hotels 🏨 | Pilgrimages 🙏 | Holidays 📺</p>
+      <a href="tel:7004361633" class="bg-red-500 hover:bg-red-600 px-6 py-3 rounded-full text-lg transition">📞 Call Us Now</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="py-16 px-6 md:px-20 text-center" data-aos="fade-up">
+    <h2 class="text-3xl font-bold text-blue-700 mb-6">🌍 Our Services</h2>
+    <div class="grid md:grid-cols-3 gap-8 text-left">
+      <div class="bg-gray-100 p-6 rounded-lg shadow" data-aos="zoom-in">
+        <h3 class="text-xl font-semibold mb-2">Domestic Tours</h3>
+        <p>Explore Goa, Kashmir, Himachal, Kerala, Vaishno Devi, and more with us.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow" data-aos="zoom-in" data-aos-delay="100">
+        <h3 class="text-xl font-semibold mb-2">International Holidays</h3>
+        <p>Enjoy Thailand, Dubai, Bali, Europe, and other international destinations.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow" data-aos="zoom-in" data-aos-delay="200">
+        <h3 class="text-xl font-semibold mb-2">Travel Services</h3>
+        <p>Flight booking, hotel reservation, cab service, visa assistance & more.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tour Packages -->
+  <section class="py-12 px-6 md:px-20 bg-white" data-aos="fade-up">
+    <h2 class="text-3xl font-bold text-center mb-8">🌐 Popular Tour Packages</h2>
+
+    <!-- Bangkok Tour -->
+    <div class="md:flex gap-10 items-center mb-12">
+      <img src="https://images.unsplash.com/photo-1575835020642-42ab3b1a61be?auto=format&fit=crop&w=800&q=80" class="rounded-lg shadow w-full md:w-1/2 mb-6 md:mb-0" alt="Bangkok Pattaya" />
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Bangkok & Pattaya – ₹30,000 PP</h3>
+        <ul class="list-disc pl-6 text-gray-700 space-y-2">
+          <li>4 Nights / 5 Days</li>
+          <li>Hotel stay, sightseeing, transfers</li>
+        </ul>
+        <p class="font-semibold mt-4 text-gray-600">Terms & Conditions:</p>
+        <ul class="list-disc pl-6 text-gray-700">
+          <li>Non-refundable once booked</li>
+          <li>Prices subject to change based on availability</li>
+          <li>Package excludes flights</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Vaishno Devi -->
+    <div class="md:flex gap-10 items-center mb-12">
+      <img src="https://images.unsplash.com/photo-1622737135195-e1fdb45b8881?auto=format&fit=crop&w=800&q=80" class="rounded-lg shadow w-full md:w-1/2 mb-6 md:mb-0" alt="Vaishno Devi" />
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Mata Vaishno Devi – ₹5,000 PP</h3>
+        <ul class="list-disc pl-6 text-gray-700 space-y-2">
+          <li>2 Nights / 3 Days</li>
+          <li>Katra stay, meals, transfers</li>
+        </ul>
+        <p class="font-semibold mt-4 text-gray-600">Terms & Conditions:</p>
+        <ul class="list-disc pl-6 text-gray-700">
+          <li>Non-refundable deposit required</li>
+          <li>Hotel rooms subject to availability</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Kashmir Tour -->
+    <div class="md:flex gap-10 items-center mb-12">
+      <img src="https://images.unsplash.com/photo-1603775020640-c1c0d5f0666a?auto=format&fit=crop&w=800&q=80" class="rounded-lg shadow w-full md:w-1/2 mb-6 md:mb-0" alt="Kashmir" />
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Kashmir Paradise – ₹15,000 PP</h3>
+        <ul class="list-disc pl-6 text-gray-700 space-y-2">
+          <li>5 Nights / 6 Days</li>
+          <li>Gulmarg, Pahalgam, Srinagar, Houseboat</li>
+        </ul>
+        <p class="font-semibold mt-4 text-gray-600">Terms & Conditions:</p>
+        <ul class="list-disc pl-6 text-gray-700">
+          <li>Non-refundable once booked</li>
+          <li>Prices based on 2 pax sharing</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Dubai Tour -->
+    <div class="md:flex gap-10 items-center mb-12">
+      <img src="https://images.unsplash.com/photo-1549921296-3a6b38b3ec4e?auto=format&fit=crop&w=800&q=80" class="rounded-lg shadow w-full md:w-1/2 mb-6 md:mb-0" alt="Dubai" />
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Dubai Tour – ₹45,000 PP</h3>
+        <ul class="list-disc pl-6 text-gray-700 space-y-2">
+          <li>4 Nights / 5 Days</li>
+          <li>City tour, Desert Safari, Burj Khalifa</li>
+        </ul>
+        <p class="font-semibold mt-4 text-gray-600">Terms & Conditions:</p>
+        <ul class="list-disc pl-6 text-gray-700">
+          <li>Non-refundable deposit required</li>
+          <li>Price excludes flights and visas</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Europe Tour -->
+    <div class="md:flex gap-10 items-center mb-12">
+      <img src="https://images.unsplash.com/photo-1585081773380-27e63fbd3b6b?auto=format&fit=crop&w=800&q=80" class="rounded-lg shadow w-full md:w-1/2 mb-6 md:mb-0" alt="Europe" />
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Europe Highlights – ₹1,50,000 PP</h3>
+        <ul class="list-disc pl-6 text-gray-700 space-y-2">
+          <li>10 Nights / 11 Days</li>
+          <li>France, Switzerland, Italy</li>
+          <li>Flights, hotels, transfers</li>
+        </ul>
+        <p class="font-semibold mt-4 text-gray-600">Terms & Conditions:</p>
+        <ul class="list-disc pl-6 text-gray-700">
+          <li>Non-refundable once booked</li>
+          <li>Visa charges are additional</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section class="py-16 px-6 md:px-20 bg-gray-100">
+    <h2 class="text-2xl font-bold text-center text-blue-700 mb-6">📝 Book Your Tour Now</h2>
+    <form action="https://formspree.io/f/manegypj" method="POST" class="max-w-3xl mx-auto grid gap-6 bg-white p-8 rounded-xl shadow">
+      <input type="text" name="name" placeholder="Full Name" class="p-3 rounded border border-gray-300 w-full" required />
+      <input type="email" name="email" placeholder="Email Address" class="p-3 rounded border border-gray-300 w-full" required />
+      <input type="tel" name="phone" placeholder="Phone Number" class="p-3 rounded border border-gray-300 w-full" required />
+      <select name="tour" class="p-3 rounded border border-gray-300 w-full" required>
+        <option selected disabled>Select a Tour</option>
+        <option>Bangkok & Pattaya</option>
+        <option>Mata Vaishno Devi</option>
+        <option>Kashmir Tour</option>
+        <option>Dubai Tour</option>
+        <option>Europe Tour</option>
+        <option>Custom Tour</option>
+      </select>
+      <textarea name="message" placeholder="Message / Special Request" class="p-3 rounded border border-gray-300 w-full h-32"></textarea>
+      <button type="submit" class="bg-red-500 hover:bg-red-600 text-white py-3 rounded text-lg">📩 Submit Booking Request</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-800 text-white text-center py-6 mt-10">
+    <p>&copy; 2025 SHREE SHYAM TRAVELS | All Rights Reserved</p>
+    <p><a href="mailto:sstravels2008@gmail.com" class="underline">sstravels2008@gmail.com</a> | <a href="http://www.sstonewaycab.com" class="underline">www.sstonewaycab.com</a></p>
+  </footer>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/917004361633" class="fixed bottom-5 right-5 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-lg text-lg z-50" target="_blank">
+    💚 Chat on WhatsApp
+  </a>
+
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+
+</body>
+</html>
